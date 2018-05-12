@@ -4,14 +4,36 @@
 }
 
 .verse {
-	margin-left: 20px;
-	margin-top: 20px;
+	display: block;
+	width: 700px;
+	margin: 25px auto 0;
+}
+
+.title{
+	font-weight: normal;;
+}
+
+.text{
+	display: inline-block;
+}
+
+.strophe {
+	margin-top: 25px;
 }
 
 p {
 	margin-bottom: 3px;
 }
 
-.strophe {
-	margin-top: 25px;
+.image-wrapper{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 35px;
+}
+
+.image-wrapper > img {
+	display: block;
+	width: 300px;
+	object-fit: contain;
+	border-radius: 25px;
 }
