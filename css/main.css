@@ -3,25 +3,26 @@
 	padding: 0;
 }
 
-.title{
-	font-weight: normal;
-}
-
 .verse {
-	margin-left: 20px;
-	margin-top: 20px;
+	display: block;
+	width: 700px;
+	margin: 25px auto 0;
 }
 
-p {
-	margin-bottom: 3px;
+.title{
+	font-weight: normal;;
+}
+
+.text{
+	display: inline-block;
 }
 
 .strophe {
 	margin-top: 25px;
 }
 
-.text{
-	display: inline-block;
+p {
+	margin-bottom: 3px;
 }
 
 .image-wrapper{
