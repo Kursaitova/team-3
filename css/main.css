@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+.title{
+	font-weight: normal;
+}
+
 .verse {
 	margin-left: 20px;
 	margin-top: 20px;
@@ -14,4 +18,21 @@ p {
 
 .strophe {
 	margin-top: 25px;
+}
+
+.text{
+	display: inline-block;
+}
+
+.image-wrapper{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 35px;
+}
+
+.image-wrapper > img {
+	display: block;
+	width: 300px;
+	object-fit: contain;
+	border-radius: 25px;
 }
